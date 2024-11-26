@@ -7,7 +7,7 @@ Create a general class using templates that mimics some behavior of the vector c
   - .size() function that returns the size of the array.
   - implement a .sum() function that returns the sum of the entire array.
   - implement a .max() and .min() function that finds the maximum and minimum of the entire array.
-  - Create a .slice(int begin, int end) function that returns a slice of the array between and including elements begin to end.  For example, if the array is [0,2,4,6,8] and the function is called as .slice(2,4) it returns the array [2,4,8] as a new array pointer - it is not a pointer to the underlying data but a new array.  Check the bounds of the slice.
+  - Create a .slice(int begin, int end) function that returns a slice of the array between and including elements begin to end.  For example, if the array is [0,2,4,6,8] and the function is called as .slice(2,4) it returns the array [4,6,8] as a new array pointer - it is not a pointer to the underlying data but a new array.  Check the bounds of the slice.
   
 You should use dynamic memory allocation to store data elements.  You should use delete and new keywords.  Everytime you add an element you should allocate new space in memory for the new size.  Copy over the previous array to the new array with the new element to add.  Delete the old array.
 
